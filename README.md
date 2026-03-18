@@ -58,28 +58,41 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 
 *Add your screenshots in a `screenshots/` folder and reference them like this:*
 
-### User Flow
-| Splash Screen | Role Selection | User Login |
+### Genric Screens
+| Splash Screen | Role Selection Screen Top | Role Selection Screen Bottom 
 |---------------|----------------|------------|
-| <img src="screenshots/splash.png" width="200"/> | <img src="screenshots/role_selection.png" width="200"/> | <img src="screenshots/user_login.png" width="200"/> |
+| <img src="screenshots/splash_screen.png" width="200"/> | <img src="screenshots/role_screen.png" width="200"/> | <img src="screenshots/role_screen_bottom.png" width="200"/> |
 
-| Restaurant List | Restaurant Detail | Book Table |
+### User Flow 
+### | User Login | User Signup | User Home Screen |
+|<img src="screenshots/user_login_screen.png" width="200"/>| <img src="screenshots/user_signup_screen.png" width="200"/> | <img src="screenshots/user_home_screen.png" width="200"/>|
+
+| Restaurant Detail Top | Restaurant Detail Middle  | Resturant Detail Bottom |
 |-----------------|-------------------|------------|
-| <img src="screenshots/user_home.png" width="200"/> | <img src="screenshots/restaurant_detail.png" width="200"/> | <img src="screenshots/book_table.png" width="200"/> |
+| <img src="screenshots/user_reservation_detail_top_screen.png" width="200"/> | <img src="screenshots/user_restaurant_detail_middle_screen.png" width="200"/> | <img src="screenshots/user_reservation_detail_bottom.png" width="200"/> 
+
+## | Book Resturant Top | Book Resturant Bottom | User drawer| 
+| <img src="screenshots/user_book_table_top_screen.png" width="200"/> | <img src="screenshots/user_book_table_bottom_screen.png" width="200"/> | <img src="screenshots/user_drawer_screen.png" width="200"/>
+
 
 | Reservations Home | Reservation Detail |
 |-------------------|--------------------|
-| <img src="screenshots/user_reservations.png" width="200"/> | <img src="screenshots/reservation_detail.png" width="200"/> |
+| <img src="screenshots/user_see_reservation_screen.png" width="200"/> | <img src="screenshots/user_reservation_detail_screen.png" width="200"/> |
+
+
 
 ### Restaurant Owner Flow
-| Owner Login | Reservations Dashboard | Accept/Decline |
+| Owner Login | Owner Home Screen Top | Owner Home Screen Bottom |
 |-------------|------------------------|----------------|
-| <img src="screenshots/owner_login.png" width="200"/> | <img src="screenshots/owner_home.png" width="200"/> | <img src="screenshots/owner_reservation_detail.png" width="200"/> |
+| <img src="screenshots/resturant_login_screen.png" width="200"/> | <img src="screenshots/resturant_home_screen_top.png" width="200"/> | <img src="screenshots/resturant_home_screen_bottom.png" width="200"/> |
+
+### | Reservation Pending | Reservation Accept | Reservation Reject |
+| <img src="screenshots/resturant_pending_reservation_screen.png" width="200"/>| <img src="screenshots/resturant_accept_reservation_screen.png" width="200"/>| <img src="screenshots/resturant_reject_reservation_screen.png" width="200"/>
 
 ### Admin Flow
-| Admin Login | Admin Home (Restaurants) | Add Restaurant |
+### | Admin Login | Admin Home  | Add Restaurant top| Add Restaurant bottom| 
 |-------------|--------------------------|----------------|
-| <img src="screenshots/admin_login.png" width="200"/> | <img src="screenshots/admin_home.png" width="200"/> | <img src="screenshots/add_restaurant.png" width="200"/> |
+| <img src="screenshots/admin_login_screen.png" width="200"/> | <img src="screenshots/admin_home_screen.png" width="200"/> | <img src="screenshots/admin_add_restaurant_top_screen.png" width="200"/> |<img src="screenshots/admin_add_restaurant_bottom_screen.png" width="200"/> |
 
 ---
 
