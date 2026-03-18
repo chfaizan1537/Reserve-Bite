@@ -92,3 +92,78 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 | Add Restaurant Bottom |
 |----------------------|
 | <img src="screenshots/admin/admin_add_resturant_bottom_screen.png" width="200"/> |
+
+
+
+- **Models** define the structure of data from Supabase.
+- **Controllers** extend `GetxController` and manage state & logic.
+- **Views** observe controllers via  `Obx`.
+- **Custom widgets** ensure UI consistency and reusability.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (>=3.16)
+- A Supabase account and project
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/chfaizan1537/Reserve_Bite.git
+   cd Reserve_Bite
+
+   
+
+## 📱 Usage / App Flow
+
+## User Role
+
+After the splash screen, select User.
+
+Login or register.
+
+Browse restaurants on the home screen.
+
+Tap a restaurant to see details and book a table.
+
+View all your reservations in the "Reservations" section from drawer.
+
+## Restaurant Owner Role
+
+Select Restaurant Owner from role screen and log in with owner credentials.
+
+See a list of all incoming reservations.
+
+Tap a reservation to view details and accept/decline it or leave it in pending state.
+
+The user sees the updated status in real time.
+
+## Admin Role
+
+Enter Credentials to login as Admin .
+
+Manage restaurants: add new ones (with name, cuisine, address, image , etc ..).
+
+Delete any restaurant directly from the list.
+
+### 🔮 Future Improvements
+Push notifications for reservation updates (using Supabase Edge Functions + FCM)
+
+Table capacity management per restaurant
+
+Ratings and reviews from users
+
+Owner profile management (edit restaurant info)
+
+Multi‑language support
+
+
+## 📬 Contact
+Created by Faizan Sarfraz  – feel free to reach out!
+
+
+
+
