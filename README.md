@@ -64,7 +64,8 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 | <img src="screenshots/splash_screen.png" width="200"/> | <img src="screenshots/role_screen.png" width="200"/> | <img src="screenshots/role_screen_bottom.png" width="200"/> |
 
 ### User Flow 
-### | User Login | User Signup | User Home Screen |
+### | User Login | User Signup | User Home Screen | 
+    |---------------|----------------|------------|
 |<img src="screenshots/user/user_login_screen.png" width="200"/>| <img src="screenshots/user/user_signup_screen.png" width="200"/> | <img src="screenshots/user/user_home_screen.png" width="200"/>|
 
 | Restaurant Detail Top | Restaurant Detail Middle  | Resturant Detail Bottom |
@@ -72,6 +73,7 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 | <img src="screenshots/user/user_reservation_detail_top_screen.png" width="200"/> | <img src="screenshots/user/user_resturant_detail_middle_screen.png" width="200"/> | <img src="screenshots/user/user_resturant_detail_bottom_screen.png" width="200"/> 
 
 ## | Book Resturant Top | Book Resturant Bottom | User drawer| 
+   |--------------------|----------------|--------------------|
 | <img src="screenshots/user/user_book_table_top_screen.png" width="200"/> | <img src="screenshots/user/user_book_table_screen_bottom.png" width="200"/> | <img src="screenshots/user/user_drawer_screen.png" width="200"/>
 
 
@@ -86,8 +88,8 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 |-------------|------------------------|----------------|
 | <img src="screenshots/resturant/resturant_login_screen.png" width="200"/> | <img src="screenshots/resturant/resturant_home_screen_top.png" width="200"/> | <img src="screenshots/resturant/resturant_home_screen_bottom.png" width="200"/> |
 
-### | Reservation Pending | Reservation Accept | Reservation Reject |
-    |---------------------|--------------------|--------------------|
+ | Reservation Pending | Reservation Accept | Reservation Reject |
+ |-------------------|--------------------|--------------------|
 | <img src="screenshots/resturant/resturant_pending_reservation_screen.png" width="200"/>| <img src="screenshots/resturant/resturant_accept_reservation_screen.png" width="200"/>| <img src="screenshots/resturant/resturant_reject_reservation_screen.png" width="200"/>
 
 ### Admin Flow
