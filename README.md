@@ -87,14 +87,18 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 | <img src="screenshots/resturant/resturant_login_screen.png" width="200"/> | <img src="screenshots/resturant/resturant_home_screen_top.png" width="200"/> | <img src="screenshots/resturant/resturant_home_screen_bottom.png" width="200"/> |
 
 ### | Reservation Pending | Reservation Accept | Reservation Reject |
+    |---------------------|--------------------|--------------------|
 | <img src="screenshots/resturant/resturant_pending_reservation_screen.png" width="200"/>| <img src="screenshots/resturant/resturant_accept_reservation_screen.png" width="200"/>| <img src="screenshots/resturant/resturant_reject_reservation_screen.png" width="200"/>
 
 ### Admin Flow
-### | Admin Login | Admin Home  | Add Restaurant top 
-|-------------|--------------------------|----------------|
+### | Admin Login | Admin Home  | Add Restaurant top | 
+    |-------------|-------------|--------------------|
 | <img src="screenshots/admin/admin_login_screen.png" width="200"/> | <img src="screenshots/admin/admin_home_screen.png" width="200"/> | <img src="screenshots/admin/admin_add_resturant_top_screen.png" width="200"/> 
+
 ## | Add Restaurant bottom|
-|<img src="screenshots/admin/admin_add_resturant_bottom_screen.png" width="200"/> |
+   |----------------------|
+   
+   |<img src="screenshots/admin/admin_add_resturant_bottom_screen.png" width="200"/> |
 
 ---
 
