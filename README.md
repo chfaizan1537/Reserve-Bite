@@ -166,7 +166,9 @@ Created by Faizan Sarfraz  – feel free to reach out!
 
 <a href="[https://www.linkedin.com/in/yourusername](https://www.linkedin.com/in/faizan-sarfraz-3b150638b?utm_source=share_via&utm_content=profile)">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" width="80">
-</a>    <a href="mailto:faizansarfraz.info@gmail.com">
+</a>  
+
+<a href="mailto:faizansarfraz.info@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" width="60">
 </a>
 
