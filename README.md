@@ -1,6 +1,3 @@
-# Reserve-Bite
-🍽️ Reserve Bite – A full‑stack restaurant table reservation system built with Flutter &amp; Supabase. Features three user roles (User, Restaurant Owner, Admin) with real‑time booking management. Clean MVC architecture, GetX state management, custom widgets.
-
 # 🍽️ Reserve Bite – Restaurant Table Reservation System
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.16-blue?logo=flutter)](https://flutter.dev)
@@ -23,7 +20,7 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 
 ## ✨ Features
 
-## 👤 User
+### 👤 User
 - Splash screen & role selection
 - Secure email/password authentication (Supabase Auth)
 - Browse all restaurants with images, cuisine, and opening hours
@@ -31,16 +28,16 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 - Book a table by selecting date, time, and party size
 - See all personal reservations (upcoming/past) and cancel if needed
 
-## 🍽️ Restaurant Owner
+### 🍽️ Restaurant Owner
 - Dedicated login for restaurant accounts
 - Dashboard showing all incoming reservations in real time
 - Accept or decline reservation requests (instant update for the user)
 - View detailed reservation info (customer name, contact, party size)
 
-## 🛠️ Admin
+### 🛠️ Admin
 - Admin‑only login
 - View all restaurants with delete option
-- Add new restaurants (name , address , location, cuisine, image , opening time , closing time .. etc.)
+- Add new restaurants (name, address, location, cuisine, image, opening time, closing time, etc.)
 
 ---
 
@@ -48,62 +45,50 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 
 - **Frontend:** Flutter, Dart  
 - **State Management:** GetX (reactive variables, route management, controllers)  
-- **Backend & Auth:** Supabase (PostgreSQL , authentication)  
+- **Backend & Auth:** Supabase (PostgreSQL, authentication)  
 - **Architecture:** MVC (Model‑View‑Controller)  
-- **Key Packages:** `supabase_flutter`, `get`, `intl`, `image_picker` , `lottie` , `google_fonts` , `dotted_border` , `flutter_dotenv`
+- **Key Packages:** `supabase_flutter`, `get`, `intl`, `image_picker`, `lottie`, `google_fonts`, `dotted_border`, `flutter_dotenv`
 
 ---
 
 ## 📸 Screenshots
 
-*Add your screenshots in a `screenshots/` folder and reference them like this:*
-
-### Genric Screens
-| Splash Screen | Role Selection Screen Top | Role Selection Screen Bottom 
-|---------------|----------------|------------|
+### Generic Screens
+| Splash Screen | Role Selection Screen Top | Role Selection Screen Bottom |
+|---------------|---------------------------|------------------------------|
 | <img src="screenshots/splash_screen.png" width="200"/> | <img src="screenshots/role_screen.png" width="200"/> | <img src="screenshots/role_screen_bottom.png" width="200"/> |
 
-### User Flow 
-### | User Login | User Signup | User Home Screen | 
-    |---------------|----------------|------------|
-|<img src="screenshots/user/user_login_screen.png" width="200"/>| <img src="screenshots/user/user_signup_screen.png" width="200"/> | <img src="screenshots/user/user_home_screen.png" width="200"/>|
+### User Flow
+| User Login | User Signup | User Home Screen |
+|------------|-------------|------------------|
+| <img src="screenshots/user/user_login_screen.png" width="200"/> | <img src="screenshots/user/user_signup_screen.png" width="200"/> | <img src="screenshots/user/user_home_screen.png" width="200"/> |
 
-| Restaurant Detail Top | Restaurant Detail Middle  | Resturant Detail Bottom |
-|-----------------|-------------------|------------|
-| <img src="screenshots/user/user_reservation_detail_top_screen.png" width="200"/> | <img src="screenshots/user/user_resturant_detail_middle_screen.png" width="200"/> | <img src="screenshots/user/user_resturant_detail_bottom_screen.png" width="200"/> 
+| Restaurant Detail Top | Restaurant Detail Middle | Restaurant Detail Bottom |
+|----------------------|--------------------------|--------------------------|
+| <img src="screenshots/user/user_reservation_detail_top_screen.png" width="200"/> | <img src="screenshots/user/user_resturant_detail_middle_screen.png" width="200"/> | <img src="screenshots/user/user_resturant_detail_bottom_screen.png" width="200"/> |
 
-## | Book Resturant Top | Book Resturant Bottom | User drawer| 
-   |--------------------|----------------|--------------------|
-| <img src="screenshots/user/user_book_table_top_screen.png" width="200"/> | <img src="screenshots/user/user_book_table_screen_bottom.png" width="200"/> | <img src="screenshots/user/user_drawer_screen.png" width="200"/>
-
+| Book Restaurant Top | Book Restaurant Bottom | User Drawer |
+|--------------------|-----------------------|-------------|
+| <img src="screenshots/user/user_book_table_top_screen.png" width="200"/> | <img src="screenshots/user/user_book_table_screen_bottom.png" width="200"/> | <img src="screenshots/user/user_drawer_screen.png" width="200"/> |
 
 | Reservations Home | Reservation Detail |
 |-------------------|--------------------|
 | <img src="screenshots/user/user_see_reservation_screen.png" width="200"/> | <img src="screenshots/user/user_reservation_detail_screen.png" width="200"/> |
 
-
-
 ### Restaurant Owner Flow
 | Owner Login | Owner Home Screen Top | Owner Home Screen Bottom |
-|-------------|------------------------|----------------|
+|-------------|----------------------|--------------------------|
 | <img src="screenshots/resturant/resturant_login_screen.png" width="200"/> | <img src="screenshots/resturant/resturant_home_screen_top.png" width="200"/> | <img src="screenshots/resturant/resturant_home_screen_bottom.png" width="200"/> |
 
- | Reservation Pending | Reservation Accept | Reservation Reject |
- |-------------------|--------------------|--------------------|
-| <img src="screenshots/resturant/resturant_pending_reservation_screen.png" width="200"/>| <img src="screenshots/resturant/resturant_accept_reservation_screen.png" width="200"/>| <img src="screenshots/resturant/resturant_reject_reservation_screen.png" width="200"/>
+| Reservation Pending | Reservation Accept | Reservation Reject |
+|--------------------|--------------------|--------------------|
+| <img src="screenshots/resturant/resturant_pending_reservation_screen.png" width="200"/> | <img src="screenshots/resturant/resturant_accept_reservation_screen.png" width="200"/> | <img src="screenshots/resturant/resturant_reject_reservation_screen.png" width="200"/> |
 
 ### Admin Flow
-### | Admin Login | Admin Home  | Add Restaurant top | 
-    |-------------|-------------|--------------------|
-| <img src="screenshots/admin/admin_login_screen.png" width="200"/> | <img src="screenshots/admin/admin_home_screen.png" width="200"/> | <img src="screenshots/admin/admin_add_resturant_top_screen.png" width="200"/> 
+| Admin Login | Admin Home | Add Restaurant Top |
+|-------------|------------|--------------------|
+| <img src="screenshots/admin/admin_login_screen.png" width="200"/> | <img src="screenshots/admin/admin_home_screen.png" width="200"/> | <img src="screenshots/admin/admin_add_resturant_top_screen.png" width="200"/> |
 
-## | Add Restaurant bottom|
-   |----------------------|
-   
-   |<img src="screenshots/admin/admin_add_resturant_bottom_screen.png" width="200"/> |
-
----
-
-## 🏗️ Architecture & Project Structure
-
-The codebase is organised for scalability and clarity:
+| Add Restaurant Bottom |
+|----------------------|
+| <img src="screenshots/admin/admin_add_resturant_bottom_screen.png" width="200"/> |
