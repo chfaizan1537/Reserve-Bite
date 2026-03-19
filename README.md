@@ -113,7 +113,7 @@ The project follows **MVC architecture** with **GetX** for state management, rou
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/chfaizan1537/Reserve_Bite.git
+   git clone https://github.com/faizan-sarfraz/Reserve_Bite.git
    cd Reserve_Bite
 
    
