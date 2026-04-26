@@ -130,7 +130,7 @@ class AddRestaurantController extends GetxController {
       );
     }
   }
-  // In your AddRestaurantController
+
   Future<void> deleteRestaurant(String id) async {
     try {
 
