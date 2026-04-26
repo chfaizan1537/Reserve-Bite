@@ -73,7 +73,7 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // Header
+                 
                       Row(
                         children: [
                           Container(
@@ -104,7 +104,7 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                       ),
                       const SizedBox(height: 24),
 
-                      // Name & Email Row
+               
                       Row(
                         children: [
                           Expanded(
@@ -126,7 +126,7 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                       ),
                       const SizedBox(height: 20),
 
-                      // Address
+                     
                       _buildInputField(
                         controller: controll.address,
                         label: 'Address',
@@ -134,7 +134,7 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                       ),
                       const SizedBox(height: 20),
 
-                      // Category
+         
                       _buildInputField(
                         controller: controll.category,
                         label: 'Cuisine Type',
@@ -142,7 +142,7 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                       ),
                       const SizedBox(height: 20),
 
-                      // Description
+            
                       _buildInputField(
                         controller: controll.description,
                         label: 'Description',
@@ -151,7 +151,7 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                       ),
                       const SizedBox(height: 20),
 
-                      // Time Pickers
+              
                       _buildTimePickerCard(
                         label: 'Opening Time',
                         time: controll.openingTime.value,
@@ -165,7 +165,6 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                       ),
                       const SizedBox(height: 24),
 
-                      // Image Picker
                       Obx(
                             () => GestureDetector(
                           onTap: controll.pickRestaurantImage,
@@ -223,7 +222,7 @@ class _AddResturantButtonState extends State<AddResturantButton> {
                       ),
                       const SizedBox(height: 32),
 
-                      // Submit Button
+                      
                       SizedBox(
                         width: double.infinity,
                         height: 56,
