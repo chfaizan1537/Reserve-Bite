@@ -188,9 +188,9 @@ class Showreservations extends GetxController {
           ),
           ElevatedButton(
             onPressed: () {
-              // Implement cancel logic
+         
               Navigator.pop(context);
-              // Show confirmation
+    
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text('Reservation cancelled'),
