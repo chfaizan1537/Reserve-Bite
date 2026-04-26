@@ -63,7 +63,7 @@ class FetchReservationController extends GetxController {
     }
   }
 
-  // Method to update reservation status
+
   Future<void> updateReservationStatus(String reservationId, String newStatus) async {
     final supabase = Supabase.instance.client;
 
